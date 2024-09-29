@@ -140,7 +140,7 @@ section {
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
     position: relative;
 }
 
@@ -249,14 +249,14 @@ section {
 
 .about-detail h3 {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
     color: var(--primary-color);
     top: 0;
     padding: 0.5rem 0;
 }
 
 .about-detail p {
-    text-align: center;
+    text-align: left;
     margin-bottom: 1rem;
 }
 
@@ -279,18 +279,15 @@ section {
 }
 
 .info-detail {
-    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+    width: 100%;
 }
 
 .detail-item h4 {
     font-size: 1.1rem;
     margin-bottom: 0.25rem;
     color: var(--accent-color);
-}
-
-.detail-item p {
-    font-size: 0.9rem;
-    line-height: 1.4;
 }
 
 .detail-item {
@@ -303,9 +300,24 @@ section {
     color: var(--accent-color);
 }
 
+.detail-item .full-stack-title{
+    line-height: 1.2rem;
+}
+
+.detail-item .full-stack-title span{
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+}
+
 .detail-item p {
     font-size: 1rem;
     line-height: 1.4;
+    margin-left: 1rem;
+}
+
+.detail-item p span{
+    font-size: 12px;
 }
 
 .skills-grid {
