@@ -168,8 +168,9 @@ section {
 .about-info {
     font-size: 16px;
     line-height: 1.6;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 1.6rem;
+    letter-spacing: 1px;
 }
 
 .bigLetter {
@@ -657,5 +658,9 @@ footer {
 
     .about-image::before {
         display: none;
+    }
+
+    footer p{
+        font-size: 12px;
     }
 }
