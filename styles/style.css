@@ -451,8 +451,9 @@ section {
 }
 
 .skill-item:hover i,
+.skill-item:hover svg,
 .skill-item:hover h3 {
-    opacity: 0.3;
+    opacity: 0;
     /* Fades the icon and text slightly on hover */
     transform: scale(0.95);
     /* Slightly shrinks the icon and text */
